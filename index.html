@@ -31,13 +31,38 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/styles.css" />
-    <title>Portfolio Maja Popov</title>
+    <title>Home page</title>
   </head>
   <body>
-    <div class="container d-flex bg-success-subtle">
-      <h1>Hello</h1>
-      <p>Hi world!</p>
-      <i class="fa-solid fa-feather"></i>
-    </div>
+    <nav
+      class="navbar navbar-expand-lg fixed-top bg-dark border-bottom border-body ps-5 pe-5"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MP</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link disabled" aria-disabled="true">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
   </body>
 </html>
