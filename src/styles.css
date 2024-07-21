@@ -3,7 +3,12 @@
   --heading-font-family: "Sevillana", cursive;
   --body--font-family: "Comfortaa", sans-serif;
 }
-
+body {
+  background-color: var(--background-color);
+  background-image: url(/images/flowers.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 h1 {
   font-family: var(--heading-font-family);
   font-size: 72px;
@@ -31,7 +36,7 @@ button {
 }
 @media (max-width: 576px) {
   h1 {
-    font-size: 48px;
+    font-size: 36px;
   }
   p {
     font-size: 18px;
@@ -42,5 +47,6 @@ button {
   }
   .container {
     max-width: 300px;
+    margin-top: 40px;
   }
 }
