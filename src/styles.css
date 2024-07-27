@@ -31,16 +31,24 @@ button {
   border-radius: 50px;
   border: none;
 }
-
+.navbar-brand,
+.home-images-links {
+  border: none !important;
+}
 a {
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px 15px;
+  color: white;
   text-decoration: none;
-  color: black;
 }
 a:hover {
   color: rgb(136, 41, 22);
+  border-color: rgb(136, 41, 22);
 }
 .project-img {
   transition: transform 0.3s;
+  height: 330px;
 }
 
 .project-img:hover {
@@ -68,7 +76,10 @@ a:hover {
   border-radius: 0%;
   padding: 60px;
 }
-
+.apps {
+  display: flex;
+  align-items: center;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 36px;
@@ -100,5 +111,12 @@ a:hover {
   }
   .about-info {
     margin-top: 30px;
+
+    text-align: center;
+  }
+}
+@media (max-width: 900px) {
+  #content {
+    text-align: center;
   }
 }
