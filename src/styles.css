@@ -80,6 +80,10 @@ a:hover {
   display: flex;
   align-items: center;
 }
+.email-link {
+  font-size: 40px;
+  border: none;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 36px;
@@ -115,6 +119,7 @@ a:hover {
     text-align: center;
   }
 }
+
 @media (max-width: 900px) {
   #content {
     text-align: center;
